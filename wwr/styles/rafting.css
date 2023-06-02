@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Noto+Sans&display=swap');
+
+:root {
+    --primary-color: #36a736   ;
+    --secondary-color: #ea0df177 ;
+    --accent1-color: #c2edf3;
+    --accent2-color: white;
+  
+    --heading-font: "Dongle";
+    --paragraph-font:"Noto Sans";
+  
+     
+    --headline-color-on-white: #ea0df177 ;  
+    --headline-color-on-color: white;  
+    --paragraph-color-on-white:#c2edf3;  
+    --paragraph-color-on-color: white;  
+    --paragraph-background-color: #c2edf3 ;
+    --nav-link-color: #c2edf3;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color:#36a736 ;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    padding: 10px;
+  }
+  h2{
+    font-size: 3em;
+  }
+
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+ }
+
+ body {
+    max-width: 840px;
+    margin: 1em;
+ }
+ .hero{
+    position: relative;
+ }
+ 
+ .hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+ h1, article,p{
+    position: absolute;
+ }
+
+ h1{
+    top:1em;
+    font-size: 3em;
+    padding-top: 0.2em;
+    background-color: #76b376;
+    opacity: 0.7;
+    width: 100%;
+    text-align: center;
+
+ }
+
+ .images{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+ }
+ .images img{
+    max-width: 500px;
+ }
+
+ article{
+    top:15em;
+    position: absolute;
+    width: 100%;
+    background-color: #a7f9a7;
+    opacity: 0.7;
+    margin: 5%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+ }
+ article p{
+    padding: 0;
+    display: inline;
+    grid-column: 1/2;
+ }
+
+ article img{
+    grid-column: 2/3;
+    float: right;
+    max-width: 150px;
+    padding: 5px;
+ }
+
+ .sociallinks{
+    flex-direction: row;
+    justify-content: space-around;
+
+ }
+ .sociallinks img{
+    max-width: 30px;
+ }
+
+ footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
