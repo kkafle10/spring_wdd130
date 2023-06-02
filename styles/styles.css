@@ -72,11 +72,14 @@ p {
 /* Class Selectors */
 
 .box {
-    margin: 1rem;
+    margin: 10px;
+    margin-right: 510px;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    list-style: none;
+    text-align: center;
 }
 
 aside h2 {
