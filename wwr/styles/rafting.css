@@ -196,3 +196,85 @@
  nav a{
    color:antiquewhite;
  }
+
+ #content_contactus{
+   box-sizing: border-box;
+   background-color:rgb(230, 241, 223);
+   
+
+}
+
+
+#content_contactus h1{
+   font-size: 58px;
+}
+form input{
+   display: block;
+   margin-bottom: 10px;
+   
+}
+form{
+   max-width:50%;
+   margin:auto;
+   border: 3px solid green;
+   background-color: rgb(184, 243, 184);
+   color:black;
+   font-size: 30px;
+   overflow: hidden;
+}
+form input,  button{
+   padding: 3px;
+   font-size: 32px;
+   margin: 2% 10%;
+}
+textarea{
+   padding: 3px;
+   font-size: 32px;
+}
+.box_content{
+   margin: 3%;
+   
+}
+form label{
+   text-align: left;
+}
+#feedback{
+   background-color: rgb(155, 243, 155);
+   border:1px solid green;
+   position:fixed;
+}
+.employee-grid{
+   display: flex;
+   flex-direction: row;
+   column-gap: 1em;
+   margin: 5% 20%;
+
+}
+.employee-grid img{
+   max-width: 400px;
+}
+
+form{
+   margin-bottom: 10%;
+}
+
+.contact-info{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   max-height: 500px;
+   align-items: center;
+}
+
+.contact{
+   text-align: center;
+   font-size: 2em;
+   position: relative;
+   display: block;
+}
+.location h3{
+   font-size: 4rem;
+}
+
+.footerdiv a{
+   color: white;
+}
