@@ -247,7 +247,7 @@ form label{
    display: flex;
    flex-direction: row;
    column-gap: 1em;
-   margin: 5% 20%;
+   margin: 5% 10%;
 
 }
 .employee-grid img{
