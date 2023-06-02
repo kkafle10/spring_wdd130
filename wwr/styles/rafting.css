@@ -278,3 +278,57 @@ form{
 .footerdiv a{
    color: white;
 }
+
+.boxes{
+   margin-top:40px;
+   display: grid;
+   grid-template-rows:300px 300px;
+   gap:40px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.box1, .box2{
+   background-color:rgb(123, 155, 123);
+   position: relative;
+  
+}
+.boxes img{
+   width: 400px;
+   max-height: 280px;
+   display: inline;
+   margin: 10px;
+   float:left;
+   overflow:hidden;
+   border:solid 4px green;
+   border-radius: 3%;
+   
+
+
+}
+p{
+   position: relative;
+}
+
+table {
+   margin-top: 10%;
+   border-collapse: collapse;
+ }
+
+ td {
+   border: 1px solid black;
+   padding: 8px;
+   font-family:var(--paragraph-font) ;
+   font-size: 1.5em;
+ }
+
+ .heading td{
+   font-size: 3em;
+   font-weight: 1000;
+   color: black;
+   font-family: var(--heading-font);
+ }
+
+ .content-trips{
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+ }
