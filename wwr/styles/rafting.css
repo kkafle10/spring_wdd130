@@ -11,8 +11,8 @@
     --paragraph-font:"Noto Sans";
   
      
-    --headline-color-on-white: #29132a77 ;  
-    --headline-color-on-color: white;  
+    --headline-color-on-white: #2a0202ea ;  
+    --headline-color-on-color: rgb(20, 15, 63);  
     --paragraph-color-on-white:#c2edf3;  
     --paragraph-color-on-color: white;  
     --paragraph-background-color: #c2edf3 ;
@@ -158,7 +158,7 @@
 
  footer{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 8fr 1fr;
     align-content: center;
     background-color: rgb(110, 77, 33);
     padding: 10px;
@@ -192,4 +192,7 @@
    text-align: center;
    color:white;
    font-size: 1.2em;
+ }
+ nav a{
+   color:antiquewhite;
  }
