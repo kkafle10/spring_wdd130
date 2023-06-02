@@ -1,0 +1,53 @@
+form {
+
+    margin: auto;
+
+    text-align: center;
+
+    background-color: bisque;
+
+    box-shadow: 1px 1px 5px 5px gray;
+
+    max-width: 40%;
+
+
+
+
+}
+
+
+
+
+form legend {
+
+    display: block;
+
+    padding: 20px;
+
+}
+
+
+
+
+legend input {
+
+    display: block;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+
+#submit {
+
+    padding: 10px 20px;
+
+    font-size: larger;
+
+    background-color: aquamarine;
+
+}
