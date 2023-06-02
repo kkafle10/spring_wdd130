@@ -23,17 +23,23 @@ nav {
 
     display: flex;
 
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     background-color: steelblue;
 
-    padding: 10px;
+    padding: 1rem;
+    align-items: center;
 
 }
 
 nav a{
     color: white;
     text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:#fff;
 }
 
 
@@ -156,4 +162,29 @@ aside h2 {
 
     left: 180px;
 
+}
+
+header,.grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+h1{
+    border-bottom: 1px solid #000;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+}
+
+main{
+    grid-column: 1/2;
+    margin: 1rem;
+}
+
+aside{
+    position: relative;
+    grid-column:2/3;
 }
