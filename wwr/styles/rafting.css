@@ -24,6 +24,7 @@
   
   a {
     text-decoration: none;
+    color:black;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -174,7 +175,7 @@
     z-index: 5;
     display: grid;
     grid-template-columns: auto 1fr;
-    background-color: rgb(110, 77, 33);
+    background-color: rgb(246, 218, 182);
  }
 #logo img{
     max-width: 100px;
@@ -197,7 +198,7 @@
    font-size: 1.2em;
  }
  nav a{
-   color:rgba(0, 0, 0, 0.871);
+   color:rgb(16, 16, 16);
    font-weight: bolder;
  }
 
